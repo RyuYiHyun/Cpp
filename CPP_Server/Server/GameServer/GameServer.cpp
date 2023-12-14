@@ -11,7 +11,22 @@
 
 
 
+
+void subfoo1(int a, int b)
+{
+	cout << a << endl;
+	cout << b << endl;
+}
+
+template<typename ... Types>
+void foo1(Types ... args)
+{
+	subfoo1(args...);
+	return;
+}
+
 int main()
 {
-	
+	foo1(3,1);
 }
+

@@ -39,6 +39,12 @@
     <ClCompile Include="3.캐시수업.cpp">
       <Filter>수업</Filter>
     </ClCompile>
+    <ClCompile Include="4.CPU파이프라인수업.cpp">
+      <Filter>수업</Filter>
+    </ClCompile>
+    <ClCompile Include="0.번외.매크로.cpp">
+      <Filter>수업</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
