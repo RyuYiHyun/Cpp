@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7fdd2830-a07e-4208-bc1e-2ab5d15afc40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{14e64c4f-f76d-4ca7-955c-3ffa1bb3a520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClass">
+      <UniqueIdentifier>{7fcaf98f-04bc-46d9-bcda-7a2a68d6ac99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="수업">
+      <UniqueIdentifier>{f5baec3e-59f9-49d4-9cfb-c223dd9f3911}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinLock.cpp">
+      <Filter>MyClass</Filter>
+    </ClCompile>
+    <ClCompile Include="1.condition_variable수업.cpp">
+      <Filter>수업</Filter>
+    </ClCompile>
+    <ClCompile Include="2.future수업.cpp">
+      <Filter>수업</Filter>
+    </ClCompile>
+    <ClCompile Include="3.캐시수업.cpp">
+      <Filter>수업</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountManager.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinLock.h">
+      <Filter>MyClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
