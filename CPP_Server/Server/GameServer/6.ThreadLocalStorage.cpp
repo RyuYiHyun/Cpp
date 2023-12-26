@@ -1,17 +1,17 @@
-ï»¿#include "pch.h"
+#include "pch.h"
 #include <iostream>
 #include "CorePch.h"
 
-#include <thread>	// ë¦¬ëˆ…ìŠ¤ì™€ ìœˆë„ìš° í™˜ê²½ ê³µìš©ì  ìŠ¤ë ˆë“œ ìƒì„± (ìŠ¤ë ˆë“œ í‘œì¤€)
-#include <atomic>	// atomic<ìë£Œí˜•> ,   ìë£Œ.fetch_add(ê°’);
-#include <mutex>	// Mutual Exclusive (ìƒí˜¸ ë°°íƒ€ì )
-/* ë°ë“œë½ ì£¼ì˜ // ìŠ¤í•€ë½ : ê³„ì† ëŒ€ê¸° ì²´í¬ // ì»¨í…ìŠ¤íŠ¸ ìŠ¤ìœ„ì¹­ */
-#include <Windows.h> // Event ì‚¬ìš©
+#include <thread>	// ¸®´ª½º¿Í À©µµ¿ì È¯°æ °ø¿ëÀû ½º·¹µå »ı¼º (½º·¹µå Ç¥ÁØ)
+#include <atomic>	// atomic<ÀÚ·áÇü> ,   ÀÚ·á.fetch_add(°ª);
+#include <mutex>	// Mutual Exclusive (»óÈ£ ¹èÅ¸Àû)
+/* µ¥µå¶ô ÁÖÀÇ // ½ºÇÉ¶ô : °è¼Ó ´ë±â Ã¼Å© // ÄÁÅØ½ºÆ® ½ºÀ§Äª */
+#include <Windows.h> // Event »ç¿ë
 #include <future>
 
 
 
-//__declspec(thread) int32 value;//ì˜›ë‚  ë°©ë²•
+//__declspec(thread) int32 value;//¿¾³¯ ¹æ¹ı
 thread_local int32 LThreadId = 0;
 
 void ThreadMain(int32 threadid)

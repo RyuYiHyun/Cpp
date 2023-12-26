@@ -48,6 +48,9 @@
     <ClCompile Include="5.메모리 모델 수업.cpp">
       <Filter>수업</Filter>
     </ClCompile>
+    <ClCompile Include="6.ThreadLocalStorage.cpp">
+      <Filter>수업</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
